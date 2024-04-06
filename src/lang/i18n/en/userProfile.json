@@ -1,0 +1,55 @@
+{
+  "noBookmarks": "You haven't bookmarked any companies yet",
+  "noReviews": "You haven't written any reviews yet",
+  "delegates": {
+    "emailRequired": "Delegate email required.",
+    "invalidEmail": "Invalid email address",
+    "noUser": "There are no Hindsyght users associated with this email address."
+  },
+  "account": {
+    "requireFirstname": "First name required",
+    "requireLastname": "Last name required",
+    "requireEmail": "User email required.",
+    "invalidEmail": "Invalid email address"
+  },
+  "settings": {
+    "password": {
+      "currentRequired": "Current Password Required",
+      "newRequired": "New Password Required",
+      "mustMatch": "Password doesn't match",
+      "incorrectPassword": "Incorrect Password",
+      "passwordChanged": "An email verifying this change has been sent to your email",
+      "passwordRequirements": "Password must be 8 characters long with at least one number and symbol"
+    }
+  },
+  "deleteReview": {
+    "heading": "We’re sorry to see that you want to remove your review.  Please provide us some information to make this experience better.",
+    "default": "Choose a reason",
+    "reason1": "I changed my opinion of this business",
+    "reason2": "I was threatened with legal action or sued",
+    "reason3": "I was offered a refund or other compensation to remove this",
+    "reason4": "I signed a contract with the business that required me to remove this review",
+    "reason5": "Other",
+    "details": "Anything else you would like us to know (optional)",
+    "reasonRequired": "Please pick a reason for deletion"
+  },
+  "subscription": {
+    "heading": "Please select the subscription type you would like for ",
+    "free": "Start your digital storefront with basic information",
+    "basic": "Best value for businesses looking to enhance the digital storefront with a limited budget",
+    "plus": "For businesses looking to stand out using Hindsyght's proprietary search engine and sales/marketing features",
+    "examplePageHeading": "We know that different firms have different needs, so Hindsyght offers multiple subscription options to fit your business. Below, we break down what each subscription level has to offer, from digital storefront customization to reporting and analytics. Need to upgrade to another level? Hindsyght also allows you to change your subscription level at any time."
+  },
+  "checkout": {
+    "subscriptionRules": "You’ll be charged ${{ yearlyPrice }}.00 yearly until you cancel your subscription. Previous charges won’t be refunded when you cancel unless it’s legally required. Your payment data is encrypted and secure. All amounts shown are in USD.",
+    "certify": "I agree to the Hindsyght <a target='_blank' href='/terms'>Terms of Use</a> and the Automatic Renewal Terms stated above.",
+    "error": {
+      "requireName": "Cardholder name required",
+      "requireAddress1": "Address 1 required",
+      "requireCity": "City required",
+      "requireState": "State required",
+      "requireZip": "Zip code required",
+      "requireAgreement": "Please agree to these terms"
+    }
+  }
+}

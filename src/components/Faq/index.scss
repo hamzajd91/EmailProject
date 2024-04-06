@@ -1,0 +1,64 @@
+@import "../../theme/variable.scss";
+
+.page_title {
+  text-align: center;
+  padding: 25px;
+  background-color: $bg8;
+  border-radius: 10px;
+  h1 {
+    color: $color2;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  h3 {
+    color: $color2;
+    margin: 0;
+    font-size: 18px;
+  }
+}
+.sub_page_title {
+  background-color: $bg8;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 15px;
+  h2 {
+    margin: 0;
+    color: $color2;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+.faq_section {
+  .col-md-6 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+}
+
+.single_que {
+  box-shadow: 0 0px 9px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-left: 8px solid $bg2;
+  border-radius: 0 10px 10px 0;
+  // margin: 15px 0;
+  height: 100%;
+  cursor: pointer;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  .que_title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .que_description {
+    font-size: 15px;
+    color: #777;
+  }
+}

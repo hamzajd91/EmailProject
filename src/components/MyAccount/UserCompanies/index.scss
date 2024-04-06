@@ -1,0 +1,183 @@
+@import "../../../theme/index.scss";
+
+.star_color {
+  svg {
+    path {
+      fill: $color7;
+    }
+  }
+}
+
+.companies_header {
+  background-color: $primary-darker;
+  padding: 45px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  img {
+    width: 50px;
+  }
+  .companies_label {
+    margin-left: 20px;
+    h3 {
+      color: #fff;
+      font-size: 20px;
+    }
+    span {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+}
+
+.review_section {
+  display: flex;
+  margin-bottom: 10px;
+  @media (max-width: 767px) {
+    margin-top: 25px;
+  }
+  span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+.bookmarks_section {
+  margin-bottom: 10px;
+  span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+.authorized_section {
+  display: flex;
+  margin-bottom: 10px;
+  span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+.edit_dtls {
+  text-align: right;
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}
+.company_load_more {
+  background-color: $primary-color;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  margin-left: auto;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+}
+.edit_Details {
+  background-color: $primary-color;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  margin-left: auto;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+}
+
+.close_btn {
+  background-color: $primary-color;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  margin-left: auto;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+}
+.prof_info {
+  align-items: center;
+  .avtar_img {
+    flex: 0 0 50px;
+    max-width: 50px;
+  }
+  .user_info {
+  }
+  .close_btn_modal {
+    margin-left: auto;
+    button {
+      background-color: transparent;
+    }
+  }
+}
+
+.company_section {
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 25px;
+  background-color: #fff;
+  margin: 145px 0 0 0;
+
+  .company_profile {
+    margin-top: -135px;
+    background-color: $primary-darker;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    padding: 20px;
+    img {
+      background-color: #fff;
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+    h3 {
+      margin: 15px 0;
+      color: #fff;
+      font-size: 17px;
+    }
+    span {
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+}
+.add_deletgates_form {
+  .form_main {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    .email_field {
+      width: calc(100% - 115px);
+    }
+    .btn_field {
+      margin-left: 10px;
+      button {
+        background-color: #2a84b3;
+        padding: 0 25px;
+        cursor: pointer;
+        color: #fff !important;
+        text-decoration: none !important;
+        border-radius: 5px;
+        margin-left: auto;
+        height: 45px;
+        line-height: 45px;
+        width: 115px;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.manage_btn {
+  color: #2a84b3;
+  background-color: transparent;
+}

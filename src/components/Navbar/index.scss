@@ -1,0 +1,125 @@
+$primary-blue: #1e8fc6;
+$primary-green: #00293d;
+$background: #f9fafd;
+
+$screen-sm-min: 768px;
+$screen-md-min: 1075px;
+
+.mainnavbar {
+  background-color: #00293d;
+  padding: 15px;
+}
+
+.search_login_block {
+  display: flex;
+  .search_box {
+    width: 300px;
+    position: relative;
+    button {
+      position: absolute;
+      background-color: transparent;
+      border: 0;
+      top: 8px;
+      left: 5px;
+    }
+    input {
+      height: 45px;
+      line-height: 45px;
+      padding: 10px 10px 10px 40px;
+      border: none;
+      border-radius: 3px;
+      width: 100%;
+    }
+  }
+
+  .sigin_btn {
+    border-radius: 3px;
+    border: none;
+    height: 45px;
+    display: inline-block;
+    width: 150px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 45px;
+    background-color: #fff;
+    color: #00293d;
+  }
+}
+
+.menu_links {
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    li {
+      list-style: none;
+      display: inline;
+      padding: 0 10px;
+      height: 40px;
+      line-height: 40px;
+      a {
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.mobile_drawer_menu {
+  width: 220px;
+  .mobile_link {
+    margin: 0 auto;
+    padding: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+      width: 100%;
+      padding: 20px 10px;
+      height: 40px;
+      line-height: 40px;
+      a {
+        font-weight: 500;
+        color: #000;
+      }
+    }
+  }
+}
+
+.mobile_navbar {
+  background-color: #00293d;
+  padding: 15px;
+
+  .drawer_btn {
+    background-color: transparent;
+    border: none;
+    svg {
+      color: #fff;
+    }
+  }
+}
+
+.mobile_drawer_menu {
+  .mobileUser {
+    button {
+      padding: 0;
+      border: none;
+      background: transparent;
+      font-weight: 600;
+    }
+
+    li.MuiListItem-button {
+      padding: 10px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 1266px) {
+  .desktop_navbar.mainnavbar {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 1266px) {
+  .mobile_navbar {
+    display: none !important;
+  }
+}

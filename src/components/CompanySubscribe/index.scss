@@ -1,0 +1,18 @@
+@import "../../theme/variable.scss";
+
+.page_title {
+  text-align: center;
+  padding: 25px;
+  background-color: $bg8;
+  border-radius: 10px;
+  h1 {
+    color: $color2;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  h3 {
+    color: $color2;
+    margin: 15px 0 0 0;
+    font-size: 14px;
+  }
+}

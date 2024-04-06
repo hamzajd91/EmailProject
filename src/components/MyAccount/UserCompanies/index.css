@@ -1,0 +1,221 @@
+.star_color svg path {
+  fill: #fbdc65;
+}
+
+.companies_header {
+  background-color: #07293d;
+  padding: 45px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.companies_header img {
+  width: 50px;
+}
+
+.companies_header .companies_label {
+  margin-left: 20px;
+}
+
+.companies_header .companies_label h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.companies_header .companies_label span {
+  color: #fff;
+  font-size: 14px;
+}
+
+.review_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .review_section {
+    margin-top: 25px;
+  }
+}
+
+.review_section span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bookmarks_section {
+  margin-bottom: 10px;
+}
+
+.bookmarks_section span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.authorized_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.authorized_section span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.edit_dtls {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .edit_dtls {
+    text-align: center;
+  }
+}
+
+.company_load_more {
+  background-color: #2a84b3;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  margin-left: auto;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+}
+
+.edit_Details {
+  background-color: #2a84b3;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  margin-left: auto;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+}
+
+.close_btn {
+  background-color: #2a84b3;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  margin-left: auto;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+}
+
+.prof_info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prof_info .avtar_img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50px;
+          flex: 0 0 50px;
+  max-width: 50px;
+}
+
+.prof_info .close_btn_modal {
+  margin-left: auto;
+}
+
+.prof_info .close_btn_modal button {
+  background-color: transparent;
+}
+
+.company_section {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 25px;
+  background-color: #fff;
+  margin: 145px 0 0 0;
+}
+
+.company_section .company_profile {
+  margin-top: -135px;
+  background-color: #07293d;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.company_section .company_profile img {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+}
+
+.company_section .company_profile h3 {
+  margin: 15px 0;
+  color: #fff;
+  font-size: 17px;
+}
+
+.company_section .company_profile span {
+  font-size: 14px;
+  color: #fff;
+}
+
+.add_deletgates_form .form_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 14px;
+}
+
+.add_deletgates_form .form_main .email_field {
+  width: calc(100% - 115px);
+}
+
+.add_deletgates_form .form_main .btn_field {
+  margin-left: 10px;
+}
+
+.add_deletgates_form .form_main .btn_field button {
+  background-color: #2a84b3;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  margin-left: auto;
+  height: 45px;
+  line-height: 45px;
+  width: 115px;
+  display: inline-block;
+}
+
+.manage_btn {
+  color: #2a84b3;
+  background-color: transparent;
+}
+/*# sourceMappingURL=index.css.map */

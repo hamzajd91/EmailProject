@@ -1,0 +1,72 @@
+{
+  "claimPopover": {
+    "unclaimedMessageLine1": "This business has not yet been claimed by the owner or a representative.",
+    "unclaimedMessageLine2": "Are you the owner? Claim this business to get profile insights and statistics",
+    "unclaimedButton": "Claim Business",
+    "claimedMessage": "This business has been claimed by the owner or a representative.",
+    "claimedButtonLearn": "Learn More",
+    "claimedButtonReclaim": "Reclaim",
+    "ownerMessage": "You have already claimed this business. This means you can see details and analytics.",
+    "transferButton": "Transfer",
+    "learnMoreMessage": "If you want to re-claim this company, click on the RECLAIM button, fill out the information required and we will send the owner an email requesting an approval for this change.",
+    "alreadyOwner": "You already owned this company!"
+  },
+  "information": {
+    "noTagline": "No description provided for this company."
+  },
+  "share": {
+    "error": {
+      "invalidEmail": "Invalid email address entered.",
+      "requireEmail": "Enter at least one email address."
+    }
+  },
+  "claim": {
+    "error": {
+      "requireName": "Name required.",
+      "requireEmail": "Email required.",
+      "requirePhone": "Phone number required.",
+      "requireWebsite": "Website required",
+      "invalidEmail": "Email Address Invalid"
+    },
+    "message": {
+      "aggreement": "By continuing, you agree you have the authority to claim this account on behalf of this firm.  You agree to Hindsyght’s <a target='_blank' href='/terms'>Terms of Use</a> and <a target='_blank' href='/privacyPolicy'>Privacy Policy</a>.</br></br>You also understand that Hindsyght may send marketing emails regarding Hindsyght products, services, and events.  You can unsubscribe at any time.",
+      "reclaimMessage": "If you want to re-claim this company, fill out the information below and we will send the owner an email requesting an approval for this change.",
+      "email": "You email must match your company domain."
+    },
+    "success": {
+      "claim": "Great! A verification email has been sent to <span id=\"email-span\"></span>!<br/> If not received, please check your SPAM folder.",
+      "reclaim": "Great! We’ve sent this submission for review."
+    }
+  },
+  "edit": {
+    "error": {
+      "maxProf": "You have reached your proficiency quota. Need more proficiencies? <a href='/company/{{id}}/subscribe'>Upgrade</a> to the next tier.",
+      "requireName": "Company Name is required.",
+      "requireAddress1": "Line 1 of company address is required.",
+      "requireCity": "Company city required.",
+      "invalidAddress1": "Address is invalid",
+      "invalidCity": "City is invalid",
+      "requireState": "Company state required.",
+      "invalidState": "Company state length must be 2 letters",
+      "requireZip": "Company Zipcode is required.",
+      "requireCountry": "Company country is required.",
+      "invalidCountry": "Address or City is not found in the selected country",
+      "requirePhone": "Company phone number is required.",
+      "invalidEmail": "Not a valid email address.",
+      "requireWebsite": "Company website required.",
+      "validUrl": "Enter valid URL",
+      "requireEmail": "Company email required",
+      "yearFounded": "Year the company was founded is required."
+    }
+  },
+  "reportReview": {
+    "reportedBody": "Our team will review the report and will email you when we take action. Thanks for taking the time to keep our community a trustworthy and respectful place.",
+    "reportedHeader": "Thanks for submitting the report!",
+    "reportMessage": "Please refer to our <a href=#>General Guidelines</a> and <a target='_blank' href='/terms'>Terms of Use</a> and let us know why you think the content you've reported may violate these guidelines."
+  },
+  "noReviews": "There are no reviews yet",
+  "noReviewsMatch": "There are no reviews that match your chosen filters.",
+  "noEditLocation": "To add a branch, you must be a BASIC or PLUS level subscriber. Click <a href='{{ link }}'>here</a> to upgrade.",
+  "noEditBanner": "To add your own Banner, you must be a BASIC or PLUS subscriber. Click <a href='{{ link }}'>here</a> to upgrade.",
+  "noEditLogo": "To add your company logo, you must be a BASIC or PLUS subscriber. Click <a href='{{ link }}'>here</a> to upgrade."
+}

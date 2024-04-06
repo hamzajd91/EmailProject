@@ -1,0 +1,19 @@
+{
+  "firstPage": {
+    "claim": "I want to claim this company on behalf of the firm."
+  },
+  "secondPage": {
+    "details": "Please provide additional information if you are claiming this company on behalf of the firm. This will help us gather more information on the firm."
+  },
+  "thirdPage": {
+    "details": "Please provide an email that matches the company website domain. We will verify the email and then you may start the claim process through a link we will send to your email."
+  },
+  "add": {
+    "maxProf": "You can only add one proficiency at this stage of the process. Once you successfully claim your company, you can review our subscription model and add more proficiencies based on the limit included in each subscription level.",
+    "validLink" : "Enter valid link ",
+    "invalidFbLink" : "Invalid Facebook URL",
+    "invalidTwitterLink" : "Invalid Twitter URL",
+    "invalidYtLink" : "Invalid Youtube URL",
+    "invalidLinkedinLink" : "Invalid Linkedin URL"
+  }
+}

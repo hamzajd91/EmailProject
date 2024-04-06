@@ -1,0 +1,47 @@
+.popular-searches {
+  background-color: #f9fafd;
+  padding: 60px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-searches .container {
+    max-width: 90%;
+  }
+}
+
+.popular-searches h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #1e8fc6;
+  font-style: normal;
+}
+
+.popular-card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  -webkit-box-shadow: 0 14px 34px #e4eef3;
+          box-shadow: 0 14px 34px #e4eef3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 78px;
+  padding: 0 20px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.popular-card img {
+  margin-right: 20px;
+}
+
+.popular-card h6 {
+  color: #1e8fc6 !important;
+  font-size: 15px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 20px;
+}
+/*# sourceMappingURL=index.css.map */

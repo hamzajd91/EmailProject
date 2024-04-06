@@ -1,0 +1,27 @@
+.company_box {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 35px;
+}
+
+.company_box ul {
+  margin-top: 15px;
+}
+
+.company_box li {
+  list-style-position: inside;
+  font-size: 14px;
+}
+
+.company_box h3 {
+  font-size: 19px;
+}
+
+.company_box p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 25px;
+}
+/*# sourceMappingURL=index.css.map */

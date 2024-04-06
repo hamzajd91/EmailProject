@@ -1,0 +1,72 @@
+.testimonials_section {
+  background-color: #f1f2f6;
+  padding: 55px 0;
+}
+
+.testimonials_section .headings {
+  text-align: center;
+}
+
+.testimonials_section .headings h3 {
+  font-weight: 600;
+}
+
+.testimonials_section .headings p {
+  color: #4f4f4f;
+}
+
+.testimonials_section .testimonial-item {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 35px;
+  margin: 0 10px;
+  border-radius: 5px;
+  margin-top: 123px;
+}
+
+.testimonials_section .testimonial-item img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 auto;
+  margin-top: -123px;
+  background-color: #fff;
+}
+
+.testimonials_section .testimonial-item .description {
+  color: #333333;
+  margin-bottom: 25px;
+}
+
+.testimonials_section .testimonial-item .name {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.testimonials_section .testimonial-item .designation {
+  color: #333333;
+  font-size: 12px;
+  margin: 0;
+}
+
+.testimonials_section .testimonial-item .county {
+  font-size: 12px;
+  color: #333333;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .testimonials_section .testimonial-item img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: 0 auto;
+    margin-top: -90px;
+    background-color: #fff;
+  }
+}
+/*# sourceMappingURL=index.css.map */

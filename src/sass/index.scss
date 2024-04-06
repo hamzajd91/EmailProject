@@ -1,0 +1,15 @@
+@import '../theme/variable.scss';
+@import '../theme/components.scss';
+
+body {
+  background-color: #fff;
+  // font-family: $font-family;
+}
+
+a {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}

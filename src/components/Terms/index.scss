@@ -1,0 +1,57 @@
+@import "../../theme/index.scss";
+
+.privacy_bg {
+  background-color: $light-color;
+  padding: 50px 0;
+  .privacy_title {
+    background-color: $primary-darker;
+    padding: 25px 10px;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    h1 {
+      font-size: 25px;
+      margin: 0;
+      color: #fff;
+    }
+  }
+
+  .privacy_info {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 35px;
+    ul {
+      li {
+        list-style: none;
+        padding-left: 20px;
+        position: relative;
+        list-style-position: inside;
+        &::before {
+          content: "";
+          height: 7px;
+          width: 7px;
+          background-color: $primary-darker;
+          border-radius: 50%;
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 8px;
+        }
+      }
+    }
+    p {
+      font-size: 13px;
+      line-height: 25px;
+    }
+    h2 {
+      background-color: $primary-darker;
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 18px;
+      color: #fff;
+      margin: 0 -25px 10px -25px;
+    }
+  }
+}

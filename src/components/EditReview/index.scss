@@ -1,0 +1,308 @@
+@import "../../theme/index.scss";
+$primary-green: #00293d;
+
+.review_agency {
+  background-color: $light-background;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 35px;
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+.light_review_bg {
+  background-color: #f5f5f5;
+  padding: 35px 0;
+}
+
+.modal_title_ {
+  font-size: 18px !important;
+}
+.modal_description {
+  font-size: 14px !important;
+  line-height: 25px !important;
+}
+.anonymous_Review_Block {
+  background-color: $primary-darker;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 35px;
+
+  .an_revoew_label {
+    display: flex;
+    align-items: center;
+    h3 {
+      color: #fff;
+      font-size: 14px;
+      margin-right: 5px;
+      margin-bottom: 0;
+    }
+    button {
+      background-color: transparent;
+      border: 0;
+      outline: none !important;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+}
+
+.option_number {
+  position: unset !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  height: 40px;
+  width: 40px;
+  flex: 0 0 40px;
+  max-width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  z-index: 99;
+  &.active {
+    background-color: $primary-color;
+    color: #fff !important;
+  }
+}
+
+.option_box {
+  background-color: $primary-darker;
+  padding: 25px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  margin: 0 -15px;
+  .review_que {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    &.review_que_active {
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -25px;
+        border-right: 5px solid $primary-color;
+      }
+    }
+    .count {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      border-radius: 50%;
+      background-color: #fff;
+      display: inline-block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: -15px;
+      position: relative;
+      z-index: 99;
+      &.active {
+        background-color: $primary-color;
+        color: #fff;
+      }
+    }
+    .question {
+      color: #fff;
+      font-size: 15px;
+      margin: 0;
+      &.active {
+        color: $primary-color;
+      }
+
+      img {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        object-fit: contain;
+      }
+
+      svg {
+        fill: #fff;
+      }
+    }
+  }
+}
+.opt {
+  margin: 0 -15px 0 -35px;
+  display: none;
+  &.active {
+    display: block;
+  }
+  .review_options {
+    background-color: #fff;
+    padding: 25px 25px 25px 45px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+    .next_btn {
+      background-color: $primary-color;
+      color: #fff;
+      padding: 13px 35px;
+      border-radius: 4px;
+
+      &:disabled {
+        background-color: grey;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.modal_contents_ {
+  p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  ul {
+    li {
+      font-size: 14px;
+      line-height: 25px;
+      list-style-position: inside;
+    }
+  }
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label {
+  color: $primary-color;
+  font-weight: bold;
+  span {
+    color: $primary-color;
+  }
+}
+
+.single_option {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  span {
+    position: absolute;
+    left: 0;
+  }
+}
+.terms {
+  p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+
+.sub_page_title {
+  background-color: $primary-green;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 15px;
+  h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+.review_guide {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  padding: 25px;
+  p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  button {
+    background-color: transparent;
+    color: $primary-color;
+  }
+}
+
+.compny_btn {
+  background-color: $primary-darker;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 17px;
+  text-decoration: none !important;
+  color: #fff !important;
+}

@@ -1,0 +1,266 @@
+.custom-modal .custom-modal-header {
+  border: none !important;
+  padding: 30px 30px 0 25px !important;
+}
+
+.custom-modal .custom-modal-header .close {
+  font-size: 18px !important;
+  color: #777 !important;
+}
+
+.custom-modal .custom-modal-header .close:hover {
+  color: #000 !important;
+}
+
+.custom-modal .custom-modal-body {
+  padding: 24px 24px 16px !important;
+}
+
+.custom-modal .custom-modal-body p.help-message {
+  text-align: center;
+  padding: 10px 0px 0px 0px !important;
+}
+
+.custom-modal .custom-modal-body .claim-company-form {
+  font-size: 14px;
+}
+
+.custom-modal .custom-modal-body .claim-company-form .domain-msg-error {
+  color: red !important;
+  font-size: 14px;
+}
+
+.custom-modal .custom-modal-body .claim-company-form button.success {
+  display: none;
+}
+
+.custom-modal .custom-modal-body .claim-company-form div.not-success {
+  display: none;
+}
+
+.custom-modal .custom-modal-body .claim-company-form div.success {
+  color: #4bc0b9;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  float: none;
+}
+
+.custom-modal .custom-modal-body .claim-company-form label {
+  font-size: 13px;
+  margin-bottom: -5px !important;
+}
+
+.custom-modal .custom-modal-body .claim-company-form input[type='text'],
+.custom-modal .custom-modal-body .claim-company-form input[type='email'] {
+  border-radius: 0px;
+  padding: 0px;
+  border: none;
+  border-bottom: 1px solid #d2d2d2 !important;
+}
+
+.custom-modal .custom-modal-body .claim-company-form input[type='text']:focus,
+.custom-modal .custom-modal-body .claim-company-form input[type='email']:focus,
+.custom-modal .custom-modal-body .claim-company-form input[type='text']:active,
+.custom-modal .custom-modal-body .claim-company-form input[type='email']:active {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom: 2px solid #2a84b3 !important;
+}
+
+.custom-modal .custom-modal-body .claim-company-form .share-buttons {
+  float: right;
+}
+
+.custom-modal .custom-modal-body .claim-company-form .share-buttons .copied {
+  color: #4bc0b9;
+  padding: 5px;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+.custom-modal .custom-modal-body .claim-company-form .share-buttons .reclaim_popover_btn.copy-link {
+  color: #fff;
+  padding: 12px 30px;
+  height: 45px;
+  -webkit-transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+  will-change: box-shadow, transform;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(44, 79, 97, 0.14), 0 2px 1px -2px rgba(58, 98, 119, 0.2), 0 1px 12px 3px rgba(64, 72, 76, 0.12);
+          box-shadow: 0 1px 2px 0 rgba(44, 79, 97, 0.14), 0 2px 1px -2px rgba(58, 98, 119, 0.2), 0 1px 12px 3px rgba(64, 72, 76, 0.12);
+}
+
+.custom-modal .custom-modal-body .claim-company-form .share-buttons .reclaim_popover_btn.copy-link:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+          box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+}
+
+.custom-modal .custom-modal-body .claim-company-form .share-buttons .linkedIn-share {
+  font-size: 0.75rem !important;
+  line-height: 1.42857143 !important;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  border-radius: 0.2rem !important;
+  vertical-align: middle !important;
+  margin-right: 1rem;
+  padding: 12px 30px;
+  background-color: #006097 !important;
+}
+
+.custom-modal .custom-modal-body .claim-company-form p.share-or {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #d2d2d2;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.custom-modal .custom-modal-body .claim-company-form p.share-or span {
+  background: #fff;
+  padding: 0 25px;
+  color: #545454;
+}
+
+.custom-modal h4 {
+  font-size: 1.125rem !important;
+  line-height: 1.5em !important;
+}
+
+.custom-modal a {
+  color: #2a84b3 !important;
+  padding-left: 5px;
+}
+
+.modal-content {
+  -webkit-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+  border: 0;
+}
+
+.modal-backdrop {
+  opacity: 0.1 !important;
+}
+
+.reason-formgroup .reason-textarea {
+  min-height: 110px;
+  max-height: 110px;
+  background-image: linear-gradient(to top, #b7b6b6 0px, rgba(42, 132, 179, 0) 2px), linear-gradient(to top, #b7b6b6 1px, rgba(210, 210, 210, 0) 1px);
+  border: none;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.reason-formgroup .reason-textarea:focus,
+.reason-formgroup .reason-textarea:active {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.reason-formgroup .reason-formlabel {
+  pointer-events: none;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.reason-formgroup .reclaim_popover_btn.report-popover-btn {
+  padding: 11px 17px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  border-radius: 0.2rem;
+  margin-top: 15px;
+  float: right;
+  margin-bottom: 30px;
+}
+
+.reason-formgroup .share {
+  float: right;
+}
+
+.reason-formgroup .textarea-counter {
+  float: right;
+  color: gray;
+}
+
+.reason-formgroup.is-focused .reason-textarea {
+  background-image: linear-gradient(to top, #2a84b3 2px, rgba(42, 132, 179, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+  border: none;
+  background-size: 100% 100%, 100% 100%;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.reason-formgroup.is-focused .reason-formlabel {
+  color: #2a84b3 !important;
+}
+
+.reclaim_popover_btn.submit-claim-btn {
+  color: #fff;
+  background-color: #2a84b3;
+  border-color: #2a84b3;
+  padding: 12px 30px;
+  -webkit-transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+  will-change: box-shadow, transform;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(44, 79, 97, 0.14), 0 2px 1px -2px rgba(58, 98, 119, 0.2), 0 1px 11px 8px rgba(64, 72, 76, 0.12);
+          box-shadow: 0 1px 2px 0 rgba(44, 79, 97, 0.14), 0 2px 1px -2px rgba(58, 98, 119, 0.2), 0 1px 11px 8px rgba(64, 72, 76, 0.12);
+}
+
+.reclaim_popover_btn.submit-claim-btn:hover {
+  -webkit-box-shadow: 0 4px 7px 0 rgba(44, 79, 97, 0.14), 0 8px 5px -2px rgba(58, 98, 119, 0.2), 0 5px 11px 10px rgba(64, 72, 76, 0.12);
+          box-shadow: 0 4px 7px 0 rgba(44, 79, 97, 0.14), 0 8px 5px -2px rgba(58, 98, 119, 0.2), 0 5px 11px 10px rgba(64, 72, 76, 0.12);
+}
+
+.tags {
+  font-size: 12px;
+  list-style: none;
+  display: inline;
+}
+
+.tags-input .remove {
+  cursor: pointer;
+}
+
+.react-tag-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-left: 0px;
+}
+
+.react-tag-input .react-tag-input__input {
+  font-size: 13px;
+}
+
+.is-invalid {
+  display: block;
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.valid {
+  display: none;
+}
+
+.success-share {
+  color: #4bc0b9;
+  font-size: 20px;
+  padding: 10px;
+  float: right;
+}
+
+.share-span {
+  padding-right: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=modals.css.map */

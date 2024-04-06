@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /opt/sandbox/react-app
+permissions:
+  - object: /
+    pattern: "**"
+    owner: ubuntu
+    group: ubuntu
+hooks:
+  # AfterInstall:
+  #   - location: deployment/install-deps.sh
+  #     runas: ubuntu
+  ApplicationStart:
+    - location: deployment/codedeploy-appstart.sh
+      runas: ubuntu
+  ValidateService:
+    - location: deployment/codedeploy-restart.sh
+      runas: ubuntu

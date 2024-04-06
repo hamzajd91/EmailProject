@@ -1,0 +1,40 @@
+.vast-network {
+  background-color: #f9fafd;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.vast-network h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #1e8fc6;
+  font-style: normal;
+}
+
+.vast-network article {
+  font-style: normal;
+  /* font-weight: 300; */
+  font-size: 15px;
+  line-height: 30px;
+  color: #000 !important;
+  margin-bottom: 35px;
+}
+
+.vast-network .video-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 60px 114px #ecf2f8;
+          box-shadow: 0 60px 114px #ecf2f8;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,27 @@
+@import "../../theme/index.scss";
+
+.subscription {
+  .row {
+    .col-md-6 {
+      min-height: 320px;
+    }
+  }
+  .subscription_img {
+    background-image: url("../../images/subscription/subscription_1.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 150px;
+  }
+  .subscription_info {
+    background-image: url("../../images/subscription/subscription_2.png");
+    background-color: $primary-darker;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 200px 15px;
+    p {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

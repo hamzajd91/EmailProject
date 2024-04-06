@@ -1,0 +1,124 @@
+$primary-color: #2a84b3;
+$primary-darker: #154260;
+$secondary-color: #2ab39e;
+$tertiary-color: #b32a83;
+$light-color: #f4f4f4;
+
+$dark-text: #000;
+$dark-text2: #062640;
+$dark-text3: #5A5A5A;
+$dark-lighter-text: #333;
+$light-text: #fff;
+$light-darker-text: #777;
+
+$light-background: #fff;
+
+$section-margin: 70px;
+
+* {
+  font-family: 'Roboto', sans-serif;
+  // font-weight: initial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300!important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff!important;
+}
+
+// Primary button
+.hindsyght-btn-primary {
+  background: $primary-color;
+  border-radius: 8px;
+  color: $light-text !important;
+  padding: 10px 25px;
+
+  &:hover {
+    color: $light-text !important;
+  }
+
+  &-lg {
+    padding: 20px 25px;
+  }
+
+  &-lg2 {
+    padding: 15px 25px;
+  }
+}
+
+.hindsyght-btn-tertiary {
+  background: $tertiary-color!important;
+  border-radius: 8px!important;
+  color: $light-text !important;
+  padding: 10px 25px!important;
+  border: none!important;
+
+  &:hover {
+    color: $light-text !important;
+  }
+
+  &-lg {
+    padding: 20px 25px;
+  }
+
+  &-lg2 {
+    padding: 15px 25px;
+  }
+}
+
+.outlined {
+  color: $tertiary-color!important;
+  background-color: $light-background!important;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    color: $primary-color !important;
+  }
+
+  &-lg {
+    padding: 20px 25px;
+  }
+}
+
+.hindsyght-grow {
+  animation-duration: 1s;
+  transform: scale(.99);
+  transition: .3s;
+
+  &:hover {
+    // background-color: blue;
+    box-shadow: 0px 10px 20px #aaa;
+    // cursor: pointer;
+    transform: scale(1.02);
+  }
+}
+
+.title {
+  color: $primary-color!important;
+}
+
+.title-darker {
+  color: $primary-darker!important;
+}
+
+.subtitle {
+  color: $tertiary-color!important;
+}
+
+// quick fix only 
+.btn-outline-primary {
+  color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover {
+    color: $light-color;
+    background-color: $primary-color;
+    border-color: $primary-color;
+  }
+}

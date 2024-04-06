@@ -1,0 +1,125 @@
+.mainnavbar {
+  background-color: #00293d;
+  padding: 15px;
+}
+
+.search_login_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search_login_block .search_box {
+  width: 300px;
+  position: relative;
+}
+
+.search_login_block .search_box button {
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  top: 8px;
+  left: 5px;
+}
+
+.search_login_block .search_box input {
+  height: 45px;
+  line-height: 45px;
+  padding: 10px 10px 10px 40px;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.search_login_block .sigin_btn {
+  border-radius: 3px;
+  border: none;
+  height: 45px;
+  display: inline-block;
+  width: 150px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 45px;
+  background-color: #fff;
+  color: #00293d;
+}
+
+.menu_links ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.menu_links ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.menu_links ul li a {
+  font-weight: 500;
+  color: #fff;
+}
+
+.mobile_drawer_menu {
+  width: 220px;
+}
+
+.mobile_drawer_menu .mobile_link {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.mobile_drawer_menu .mobile_link li {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 10px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.mobile_drawer_menu .mobile_link li a {
+  font-weight: 500;
+  color: #000;
+}
+
+.mobile_navbar {
+  background-color: #00293d;
+  padding: 15px;
+}
+
+.mobile_navbar .drawer_btn {
+  background-color: transparent;
+  border: none;
+}
+
+.mobile_navbar .drawer_btn svg {
+  color: #fff;
+}
+
+.mobile_drawer_menu .mobileUser button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-weight: 600;
+}
+
+.mobile_drawer_menu .mobileUser li.MuiListItem-button {
+  padding: 10px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1266px) {
+  .desktop_navbar.mainnavbar {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1266px) {
+  .mobile_navbar {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */

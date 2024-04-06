@@ -1,0 +1,29 @@
+/**
+ * User Action Types
+ */
+
+export const CONTACT_INFO_REQUEST = 'CONTACT_INFO_REQUEST';
+export const CONTACT_INFO_SUCCESS = 'CONTACT_INFO_SUCCESST';
+export const CONTACT_INFO_FAIL = 'CONTACT_INFO_FAIL';
+
+export const ADD_CONTACT_INFO_REQUEST = 'ADD_CONTACT_INFO_REQUEST';
+export const ADD_CONTACT_INFO_SUCCESS = 'ADD_CONTACT_INFO_SUCCESST';
+export const ADD_CONTACT_INFO_FAIL = 'ADD_CONTACT_INFO_FAIL';
+
+export const DELETE_CONTACT_INFO_REQUEST = 'DELETE_CONTACT_INFO_REQUEST';
+export const DELETE_CONTACT_INFO_SUCCESS = 'DELETE_CONTACT_INFO_SUCCESS';
+export const DELETE_CONTACT_INFO_FAIL = 'DELETE_CONTACT_INFO_FAIL';
+
+export const UPDATE_CONTACT_INFO_REQUEST = 'UPDATE_CONTACT_INFO_REQUEST';
+export const UPDATE_CONTACT_INFO_SUCCESS = 'UPDATE_CONTACT_INFO_SUCCESS';
+export const UPDATE_CONTACT_INFO_FAIL = 'UPDATE_CONTACT_INFO_FAIL';
+
+
+export interface ContactInfoState {
+  loading: boolean;
+  getContactInfo: any;
+  addContactInfo: any;
+  deleteContactInfo: any;
+  updateContactInfo: any;
+  error: any;
+}

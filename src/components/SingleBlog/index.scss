@@ -1,0 +1,38 @@
+@import "../../theme/index.scss";
+
+.blog_info {
+  color: #777;
+  display: inline-block;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.post__content {
+  a {
+    text-decoration: underline;
+    color: #328fc6 !important;
+    span {
+      color: #328fc6 !important;
+    }
+  }
+  h2 {
+    font-size: 25px;
+    margin: 25px 0;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 25px 0;
+  }
+  p {
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0 0 10px;
+  }
+  ul {
+    li {
+      font-size: 14px;
+      line-height: 25px;
+      list-style-position: inside;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.landing_text {
+  margin-top: 45px;
+}
+
+.landing_text h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #1e8fc6;
+  font-style: normal;
+}
+
+.landing_text p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000 !important;
+}
+
+.hindsyght-landing .proficiencies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hindsyght-landing .proficiencies .proficiency-item div {
+  margin-bottom: 10px;
+}
+
+.hindsyght-landing .proficiencies .proficiency-item div a {
+  color: #2a84b3 !important;
+}
+
+.hindsyght-landing .hindsyght-divider {
+  background-color: #d4d4d4;
+  margin: 100px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .hindsyght-landing .hindsyght-divider {
+    margin: 50px 0;
+  }
+}
+
+.hindsyght-landing .section-title {
+  color: #2a84b3;
+  margin-bottom: 46px;
+}
+
+.hindsyght-landing .section-body {
+  margin-bottom: 70px;
+}
+
+.hindsyght-landing .landing-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.landing_section {
+  margin: 35px auto;
+}
+
+.landing_section .landing_block {
+  height: 100%;
+  background-color: #f7fdff;
+  padding: 25px;
+}
+
+.landing_section .landing_block .l_icon {
+  margin: 25px 0;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #cff0ff;
+}
+
+.landing_section .landing_block p {
+  line-height: 25px;
+}
+
+.landing_section .landing_block h3 {
+  font-size: 22px;
+  line-height: 30px;
+  color: #2a84b3;
+}
+/*# sourceMappingURL=index.css.map */

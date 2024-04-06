@@ -1,0 +1,21 @@
+@import "../../theme/index.scss";
+
+.page_blog_section {
+  background-color: #f9fafd;
+  padding: 35px 0;
+  h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #1e8fc6;
+    font-style: normal;
+    margin-bottom: 35px;
+  }
+  .popular_blog {
+    text-align: center;
+    margin: 15px 0;
+    a {
+      color: #1e8fc6;
+    }
+  }
+}

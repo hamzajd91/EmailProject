@@ -1,0 +1,429 @@
+@import "../../theme/index.scss";
+
+.about_us_title {
+  .welcome_text {
+    white-space: nowrap;
+    font-size: 25px;
+    font-weight: 600;
+    @media screen and (max-width: 767px) {
+      font-size: 18px;
+      img {
+        width: 130px;
+      }
+    }
+    img {
+      margin-left: 5px;
+      width: 150px;
+    }
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 25px;
+  }
+}
+
+.about_serach {
+  padding: 40px 0;
+  background-color: $primary-darker;
+}
+
+.connection_section {
+  padding: 35px 0;
+  background-color: #f5f5f5;
+
+  .connection_header {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .about_what_we_do {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    height: 100%;
+
+    label {
+      background-color: $primary-color;
+      padding: 15px 25px;
+      margin-left: -25px;
+      margin-bottom: 25px;
+      color: #fff;
+      font-weight: 500;
+    }
+    p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+
+  .benefits_to_service {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    height: 100%;
+
+    label {
+      background-color: $primary-color;
+      padding: 15px 25px;
+      margin-right: -25px;
+      margin-bottom: 25px;
+      font-weight: 500;
+      color: #fff;
+    }
+    p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+}
+
+.vission_mission_section {
+  background-image: url("../../images/about/vission_mission.png");
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vission_mission_block {
+  margin-top: -100px;
+  .vission {
+    background-color: $primary-darker;
+    padding: 25px;
+    margin: 0 -15px;
+    height: 100%;
+    label {
+      padding: 15px 25px;
+      position: relative;
+      top: -25px;
+      right: -25px;
+      background-color: $primary-color;
+      color: $primary-darker;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    p {
+      color: #fff;
+      margin: 0;
+    }
+  }
+
+  .mission {
+    background-color: $primary-color;
+    padding: 25px;
+    margin: 0 -15px;
+    height: 100%;
+    label {
+      padding: 15px 25px;
+      position: relative;
+      top: -25px;
+      left: -25px;
+      background-color: $primary-darker;
+      color: $primary-color;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    p {
+      color: #fff;
+      margin: 0;
+    }
+  }
+}
+
+.our_team_title {
+  padding: 50px 15px;
+  text-align: center;
+  text-align: center;
+  margin-top: 55px;
+  background-color: $primary-darker;
+  h3 {
+    font-size: 30px;
+    color: #fff;
+  }
+}
+.our_team {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  .team_member {
+    position: relative;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    padding: 15px 15px 45px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    .team_image {
+      overflow: hidden;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      margin-top: -75px;
+      background-color: #fff;
+      border-radius: 20px;
+      flex: 0 0 150px;
+      max-width: 150px;
+      @media screen and (max-width: 767px) {
+        flex: 0 0 100px;
+        max-width: 100px;
+      }
+      img {
+        height: 150px;
+        width: 150px;
+        object-fit: contain;
+        @media screen and (max-width: 767px) {
+          height: 100px;
+          width: 100px;
+        }
+      }
+    }
+    .team_info {
+      flex: 0 0 calc(100% - 150px);
+      max-width: calc(100% - 150px);
+      padding: 0 45px 0 15px;
+      position: relative;
+      @media screen and (max-width: 767px) {
+        flex: 0 0 calc(100% - 100px);
+        max-width: calc(100% - 100px);
+      }
+      span {
+        font-weight: 600;
+        font-size: 20px;
+        width: 100%;
+        display: inline-block;
+        @media screen and (max-width: 767px) {
+          font-size: 16px;
+        }
+        &.designation {
+          font-weight: 500;
+          color: $primary-color;
+          font-size: 16px;
+          @media screen and (max-width: 767px) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .linked_in_link {
+      display: inline-block;
+      width: 60px;
+      position: absolute;
+      height: 60px;
+      background-color: $primary-color;
+      border-bottom-right-radius: 5px;
+      border-top-left-radius: 60px;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      line-height: 70px;
+      svg {
+        width: 35px;
+        margin-left: 5px;
+        height: 35px;
+      }
+    }
+  }
+}
+.join_social {
+  background-color: $primary-color;
+  padding: 70px 10px;
+  text-align: center;
+  h4 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .social {
+    a {
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      display: inline-block;
+      background-color: #7cbede;
+      margin: 5px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.hs-about {
+  .container {
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 5px 26px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column-reverse;
+    }
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      // border: 1px solid red;
+      margin-top: 50px;
+
+      h1 {
+        // border-bottom: 2px solid $secondary-color;
+      }
+
+      h3 {
+        font-size: 22px;
+        margin-top: 15px;
+      }
+
+      .search-wrapper {
+        margin-left: -25px;
+        margin-top: 180px;
+        @media screen and (max-width: 767px) {
+          margin-left: 0;
+          margin-top: 0;
+        }
+
+        .suggestions {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .right {
+      max-width: 400px;
+      // border: 1px solid blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 500px;
+        height: auto;
+      }
+      h1 {
+        font-size: 100px;
+        text-align: center;
+        line-height: 90px;
+        margin-top: -50px;
+
+        @media screen and (max-width: 767px) {
+          font-size: 50px;
+          margin: 30px;
+          line-height: 55px;
+        }
+      }
+    }
+  }
+
+  nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 80px 0;
+    background-color: $primary-color;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      height: auto;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      @media screen and (max-width: 767px) {
+        padding: 15px 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .content-wrapper {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 5px 26px;
+
+    p {
+      font-size: 18px;
+      max-width: 1000px;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      margin-bottom: 5px;
+    }
+
+    .description {
+      margin-bottom: 30px;
+    }
+  }
+
+  .vision {
+    background-color: $secondary-color;
+    padding: 50px 0;
+    margin: 80px 0;
+    h3 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-weight: 300;
+    }
+
+    p {
+      color: #111;
+    }
+  }
+
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 767px) {
+      justify-content: center;
+    }
+
+    .member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      @media screen and (max-width: 767px) {
+        min-width: 200px;
+        margin-bottom: 50px;
+      }
+
+      .linkedin-member {
+        height: 20px;
+        margin-top: 15px;
+      }
+
+      .title {
+        margin-top: 20px;
+      }
+    }
+    margin-bottom: 150px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-bottom: 50px;
+
+    a {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

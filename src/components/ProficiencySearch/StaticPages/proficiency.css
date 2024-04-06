@@ -1,0 +1,64 @@
+.proficiency_statics.proficiency_statics_bg {
+  background-color: #f9fafd;
+}
+
+.proficiency_statics .proficiency_statics_top {
+  background-color: #07293d;
+}
+
+.proficiency_statics h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.proficiency_statics h2 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.proficiency_statics h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.proficiency_statics h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.proficiency_statics h5.proficiency_step {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  color: #2a84b3;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.proficiency_statics p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.proficiency_statics ul li {
+  font-size: 14px;
+  line-height: 25px;
+  list-style-position: inside;
+}
+
+.proficiency_statics .readmore_btn {
+  background-color: transparent;
+  font-weight: 600;
+  color: #2a84b3;
+}
+
+.proficiency_statics .search_list ul li {
+  list-style-position: inside;
+}
+
+.proficiency_statics .search_list ul li ul {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=proficiency.css.map */

@@ -1,0 +1,94 @@
+@import "../../theme/index.scss";
+
+// TODO: set variables with pages max widths
+
+.landing_text {
+  margin-top: 45px;
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1e8fc6;
+    font-style: normal;
+  }
+  p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000 !important;
+  }
+}
+
+.hindsyght-landing {
+  // margin: 40px;
+
+  @media screen and (max-width: 500px) {
+    // margin: 20px;
+  }
+
+  .proficiencies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .proficiency-item {
+      div {
+        margin-bottom: 10px;
+
+        a {
+          color: $primary-color !important;
+        }
+      }
+    }
+  }
+
+  .hindsyght-divider {
+    background-color: #d4d4d4;
+    margin: 100px 0;
+
+    @media screen and (max-width: 500px) {
+      margin: 50px 0;
+    }
+  }
+
+  .section-title {
+    color: $primary-color;
+    margin-bottom: 46px;
+  }
+
+  .section-body {
+    margin-bottom: 70px;
+  }
+
+  .landing-content {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+.landing_section {
+  margin: 35px auto;
+  .landing_block {
+    height: 100%;
+    background-color: #f7fdff;
+    padding: 25px;
+    .l_icon {
+      margin: 25px 0;
+      height: 70px;
+      width: 70px;
+      line-height: 70px;
+      border-radius: 50%;
+      text-align: center;
+      background-color: #cff0ff;
+    }
+    p {
+      line-height: 25px;
+    }
+    h3 {
+      font-size: 22px;
+      line-height: 30px;
+      color: $primary-color;
+    }
+  }
+}

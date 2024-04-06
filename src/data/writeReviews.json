@@ -1,0 +1,74 @@
+{
+  "headingP": "Please provide a description of your experience below. Your review will help others in their business decisions.  Remember to provide as much detail as possible, and keep it real.",
+  "guidelines": "<p>Thanks for giving back to this business community. Your review will help others make decisions on selecting a business partner.</p><p>We want to make the review process as easy as possible and have created a 5-star scale across 5 different review categories.  You can simply click on the rating based on the message that best fits your experience within each category.</p><p>We also provide an area for you to add your own personal input.  You can provide any additional feedback that you would like to share to make your review authentic. For insights on how to write a good review, please read our <span data-toggle='modal' data-target='#guidelinesModal'>General Guidelines</span>. for more details.</p><p>Hindsyght likes to keep things professional and respectful. we’ve a no tolerance policy on aggressive or discriminatory language including threats, harassment, lewdness, hate speech, and profanity.</p><p>Thanks for keeping Hindsyght a great place to view and share information.</p>",
+  "guidelinesModal": "<p>Hindsyght allows users to contribute the content based on the experiences they had with professional services firms through reviews.  Being professional is the expectation for this community.  Please follow these guidelines to ensure everyone can benefit from this site and create a helpful, balanced, and authentic community.</p><p>What to do:</p><ul><li><p>The best reviews are authentic. They include honest narrative, sufficient detail, and helpful tips for others to see. Your review should be truthful and constitute your own personal opinion and experience.  We don’t take sides when it comes to factual disputes, so we expect you to stand behind your statements.</p></li><li><p>Your reviews should be relevant and appropriate. Reviews should not be about matters that don't address the core customer experience.  We encourage you to think about your experience from a few perspectives and include both a pro and a con to provide a balanced review.</p></li><li><p>We want to hear about your firsthand experience, not what you heard from others. Tell your story without broad generalizations and allegations.</p></li><li><p>Your review should be factually correct. Feel free to provide your opinions, but don't exaggerate or misrepresent your experience. We don't take sides when it comes to factual disputes, so we expect you to stand behind your review.</p></li><li><p>Review updates should reflect a new experience or interaction with the business. Don't tell the same old story you've already told. If you'd like to add new insight to an old experience, just edit your review instead of creating a new update.</p></li></ul><p>What not to do:</p><ul><li><p>We don't approve reviews that include profanities, threats, harassment, or discriminatory language targeted at an individual or group. We also do not allow reviews that include negative comments about identifiable individuals.</p></li><li><p>Your contributions should not be biased. We do not approve writing reviews of your own company, your friends’ or relatives’ company, your peers or competitors in your industry.</p></li><li><p>Please don’t publicize other people’s private information.</p></li><li><p>Don’t copy content from other sites or users.</p></li><li><p>You should not use removing or posting your review as a way to extract benefit from a company.</p></li><li><p>We do not accept reviews that reveal confidential, non-public internal company information. These include, but not limited to, financial results, budgets, source code, customer lists, manufacturing techniques, R&D activities, and technical know-how.</p></li><li><p>To protect user privacy, do not identify yourself or include any contact information (about yourself or others) in your posts.</p></li></ul>",
+  "reason": {
+    "label": "What is the one main reason you selected this company over others during your selection process?"
+  },
+  "checkbox": "I certify that this review is my genuine opinion based on my own experience with the company. I submit the review in accordance with Hindsyght's <a target='_blank' href='/terms'>Terms of Use</a>. I am not an employee of this company or one of its direct competitors. I also confirm that, if I was offered an incentive in exchange for providing the review, the offer did not influence the content of this review.",
+  "categoriesHeader": "Rate the company on these 5 criteria:",
+  "agreementMissing": "Please agree to the Terms of Use",
+  "ratingsRequired": "Please enter a score for each category of work.",
+  "categories": [
+    {
+      "categoryId": "1",
+      "categoryName": "Value",
+      "scores": {
+        "icon": "value",
+        "1": "This company provided little to no value.",
+        "2": "This company did not provide the value we expected.",
+        "3": "This company met my expectation for the value they delivered.",
+        "4": "This company provided very good value for the money I spent.",
+        "5": "This company provided an amazing value that exceeded my expectations."
+      }
+    },
+    {
+      "categoryId": "2",
+      "categoryName": "Quality",
+      "scores": {
+        "icon": "quality",
+        "1": "They have poor quality deliverables.",
+        "2": "They did not meet my expectations on quality of their deliverables.",
+        "3": "They delivered moderate quality deliverables and the final product met my expectations.",
+        "4": "They delivered good quality deliverables and the final product is very good.",
+        "5": "They consistently delivered high quality deliverables and the final product exceeded my expectations."
+      }
+    },
+    {
+      "categoryId": "3",
+      "categoryName": "Knowledge",
+      "scores": {
+        "icon": "knowledge",
+        "1": "We had to tell this company what to do and they offered no valuable recommendations.",
+        "2": "They offered very few recommendations or insights.",
+        "3": "They offered some good recommendations and seemed knowledgeable.",
+        "4": "They provided good recommendations and seemed knowledgeable overall.",
+        "5": "I can count on this company to provide me with insights and the right recommendations due to their knowledge and experience."
+      }
+    },
+    {
+      "categoryId": "4",
+      "categoryName": "Execution",
+      "scores": {
+        "icon": "execution",
+        "1": "The vendor was poor and was not able to meet your expectations.",
+        "2": "The vendor was average and needed significant help to get the work done.",
+        "3": "The vendor was good, but some assistance from your team was needed to meet your expectations.",
+        "4": "The vendor was in control, and met most of your expectations.",
+        "5": "The vendor took charge, had total control of either the project work or their day to day activities, and was able to meet your expectations for quality, timeline, and cost."
+      }
+    },
+    {
+      "categoryId": "5",
+      "categoryName": "Communication",
+      "scores": {
+        "icon": "communication",
+        "1": "I had to track down project status and most people were not on the same page.",
+        "2": "I received status reports, but it didn’t really tell me where we were on the project.",
+        "3": "I was somewhat aware of what's going on with the project, some of the project team and business community were on the same page.",
+        "4": "I was aware of what's going on with the project, the project team and business community were often on the same page.",
+        "5": "I was always aware of what's going on with the project, the entire project team and business community were always on the same page."
+      }
+    }
+  ]
+}

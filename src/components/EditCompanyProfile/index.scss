@@ -1,0 +1,129 @@
+.editCompanyForm {
+  .card {
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+    label {
+      font-size: 0.875rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    .industry,
+    .country,
+    textarea {
+      border-radius: 0px;
+      padding: 0px;
+      border: none;
+      border-bottom: 1px solid #d2d2d2 !important;
+      margin-bottom: 1rem;
+      font-size: 14px;
+    }
+    #proficiency {
+      margin-bottom: 0rem !important;
+    }
+    .industry:focus,
+    .country:focus,
+    textarea:focus {
+      box-shadow: none !important;
+      border-bottom: 2px solid #2a84b3 !important;
+      transition: 0.3s width ease-in-out;
+      -webkit-transition: 0.3s width ease-in-out;
+    }
+    input[type="number"]:focus,
+    input[type="number"]:active,
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="text"]:active,
+    input[type="email"]:active {
+      box-shadow: none !important;
+      border-bottom: 2px solid #2a84b3 !important;
+      transition: 0.3s width ease-in-out;
+      -webkit-transition: 0.3s width ease-in-out;
+    }
+  }
+}
+.section-2 {
+  .text-length {
+    float: right;
+  }
+}
+.section-3 {
+  .btn {
+    color: #fff;
+    background-color: #999;
+    border-color: #999;
+    box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2),
+      0 1px 5px 0 rgba(153, 153, 153, 0.12);
+  }
+  .btn:hover {
+    color: white;
+    background-color: #919191;
+    border-color: #7a7a7a;
+    box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12),
+      0 8px 10px -5px rgba(153, 153, 153, 0.2);
+  }
+  .btn.cancel {
+    margin-right: 5px;
+    a {
+      color: white;
+    }
+  }
+}
+.max-prof-error {
+  color: red;
+  font-size: 12px;
+  a {
+    cursor: pointer;
+    color: #007bff;
+  }
+}
+.suggestions {
+  top: 100%;
+  left: 0;
+  border: 1px #d3d3d3 solid;
+  background: #fff;
+  border-radius: 5px;
+  z-index: 1;
+  cursor: pointer;
+  padding: 10px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.invalid {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+.exclaim-triangle {
+  float: right;
+}
+span {
+  .remove {
+    cursor: pointer;
+  }
+}
+
+.yes_btn {
+  color: #fff;
+  background-color: #2a84b3;
+  border-color: #2a84b3;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2),
+    0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
+
+.no_btn {
+  color: #fff;
+  background-color: #999;
+  border-color: #999;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2),
+    0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}

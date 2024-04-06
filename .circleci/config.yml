@@ -1,0 +1,125 @@
+docker: &docker
+  image: circleci/node:10.13-stretch-browsers
+
+defaults: &DEFAULTS
+  working_directory: ~/react-app
+  docker:
+    - *docker
+
+version: 2
+jobs:
+  build:
+    <<: *DEFAULTS
+    environment:
+      PROJECT_NAME: hindsyght-react
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      # - run: npm install
+
+      # - save_cache:
+      #     paths:
+      #       - node_modules
+      #     key: v1-dependencies-{{ checksum "package.json" }}
+
+## Deployment job
+  deploy-qa:
+    <<: *DEFAULTS
+    environment:
+      PROJECT_NAME: hindsyght-react
+      DEPLOY_DIR: $HOME/deploy
+      AWS_CODE_DEPLOY_REGION: us-east-1
+      AWS_CODE_DEPLOY_APPLICATION_NAME: "Hindsyght"
+      AWS_CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: react-qa
+      AWS_CODE_DEPLOY_APP_SOURCE: /home/circleci/react-app
+      AWS_CODE_DEPLOY_S3_BUCKET: callupo-react-app-codedeploy
+      AWS_CODE_DEPLOY_S3_KEY_PREFIX: qa
+      AWS_CODE_DEPLOY_S3_FILENAME: "${CIRCLE_BUILD_NUM}#${CIRCLE_SHA1:0:7}.zip"
+      AWS_CODE_DEPLOY_REVISION_DESCRIPTION: "qa-${CIRCLE_BRANCH} (#${CIRCLE_SHA1:0:7})"
+      AWS_CODE_DEPLOY_DEPLOYMENT_DESCRIPTION: "Deployed via CircleCI on $(date)"
+      AWS_CODE_DEPLOY_S3_LIMIT_BUCKET_FILES: 2
+
+    steps:
+      - checkout
+      - run:
+          name: Install AWS dependencies
+          working_directory: /
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y python-pip python-dev
+            sudo pip install awscli
+      - run: npm install
+      - run: rm .env.production
+      - run: cp .env.qa .env.production
+      - run:
+          name: Build assets
+          command: REACT_APP_CHARGEBEE_SITE="hindsyght-test" npm run build
+      - run:
+          name: Upload assets to S3
+          command: aws s3 cp ./public s3://s3qa.react-hindsyght.com --recursive --cache-control max-age=604800000
+      - run:
+          name: Cleanup node_modules folder
+          command: rm -rf node_modules
+      - run: sudo npm install aws-code-deploy -g
+      - run: aws-code-deploy
+
+  deploy-prod:
+    <<: *DEFAULTS
+    environment:
+      PROJECT_NAME: hindsyght-react
+      DEPLOY_DIR: $HOME/deploy
+      AWS_CODE_DEPLOY_REGION: us-east-1
+      AWS_CODE_DEPLOY_APPLICATION_NAME: "Hindsyght"
+      AWS_CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: react-production
+      AWS_CODE_DEPLOY_APP_SOURCE: /home/circleci/react-app
+      AWS_CODE_DEPLOY_S3_BUCKET: callupo-react-app-codedeploy
+      AWS_CODE_DEPLOY_S3_KEY_PREFIX: production
+      AWS_CODE_DEPLOY_S3_FILENAME: "${CIRCLE_BUILD_NUM}#${CIRCLE_SHA1:0:7}.zip"
+      AWS_CODE_DEPLOY_REVISION_DESCRIPTION: "prod-${CIRCLE_BRANCH} (#${CIRCLE_SHA1:0:7})"
+      AWS_CODE_DEPLOY_DEPLOYMENT_DESCRIPTION: "Deployed via CircleCI on $(date)"
+      AWS_CODE_DEPLOY_S3_LIMIT_BUCKET_FILES: 4
+
+    steps:
+      - checkout
+      - run:
+          name: Install AWS dependencies
+          working_directory: /
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y python-pip python-dev
+            sudo pip install awscli
+      - run: npm install
+      - run:
+          name: Build assets
+          command: REACT_APP_CHARGEBEE_SITE="hindsyght" npm run build
+      - run:
+          name: Upload assets to S3
+          command: aws s3 cp ./public s3://s3.react-hindsyght.com --recursive --cache-control max-age=604800000
+      - run:
+          name: Cleanup node_modules folder
+          command: rm -rf node_modules
+      - run: sudo npm install aws-code-deploy -g
+      - run: aws-code-deploy
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - deploy-qa:
+          filters:
+            branches:
+              only: qa
+      - deploy-prod:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^\d+\.\d+\.\d+$/

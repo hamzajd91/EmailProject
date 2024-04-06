@@ -1,0 +1,50 @@
+@import "../../theme/variable.scss";
+.footer_links {
+  a {
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0;
+    color: #5a6168;
+    font-size: 14px;
+  }
+  p {
+    color: #aeb1b5;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+}
+
+.social-networks {
+  flex-direction: column;
+  margin-left: auto;
+  p {
+    color: #aeb1b5;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    a {
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #d2e9f4;
+        height: 59px;
+        width: 59px;
+        border-radius: 100%;
+      }
+    }
+    .middle {
+      margin: 0 20px;
+    }
+  }
+}

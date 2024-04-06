@@ -1,0 +1,120 @@
+.single-plan {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  height: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.single-plan .plan-top {
+  background-image: url("../../images/services/plan_top.png");
+  background-size: 100% 100%;
+  margin: -25px -25px 0 -25px;
+  padding: 25px 25px 155px 25px;
+  text-align: center;
+  color: #fff;
+  min-height: 300px;
+}
+
+.single-plan .plan-top .title {
+  font-weight: 600;
+  padding-bottom: 15px;
+  font-size: 19px;
+  color: #fff;
+}
+
+.single-plan .plan-top .description {
+  color: #fff;
+  font-size: 15px;
+}
+
+.single-plan .plan-price {
+  height: 100px;
+  width: 100px;
+  color: #fff;
+  background-color: #2a84b3;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130px;
+  margin-top: -105px;
+  margin-bottom: 35px;
+}
+
+.single-plan .plan-price span {
+  line-height: 23px;
+  font-size: 17px;
+  display: inline-block;
+  color: #fff;
+}
+
+.single-plan .plan-price span span {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.single-plan .plans-features li {
+  list-style: none;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.single-plan .plans-features li img {
+  width: 20px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+}
+
+.single-plan .plans-features li span {
+  font-size: 14px;
+}
+
+.single-plan .select-btn {
+  background-color: #2a84b3;
+  color: #fff;
+  padding: 13px 35px;
+  border-radius: 4px;
+}
+
+.single-plan .select-btn:disabled {
+  opacity: 0.5;
+}
+
+.single-plan .select-btn a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.single-plan .show_more_hide {
+  margin-bottom: 15px;
+  outline: none !important;
+  color: #2a84b3;
+  background-color: transparent;
+}
+
+.single-plan .show_more_hide svg path {
+  color: #2a84b3;
+}
+
+.single-plan .show_more_hide span {
+  color: #2a84b3;
+}
+/*# sourceMappingURL=index.css.map */

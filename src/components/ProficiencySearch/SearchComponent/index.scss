@@ -1,0 +1,141 @@
+@import "../../../theme/variable.scss";
+@import "../../../theme/index.scss";
+
+.search_form_wrapper {  
+  @media screen and (max-width: 500px) {
+    margin-top: 0;
+    height: auto;
+  }
+
+  .search-form {
+    background-color: $light-color !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 2px;
+    background: $bg3 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+    height: 70px;
+    width: 800px;
+    position: relative;
+    z-index: 9;
+
+    @media screen and (max-width: 500px) {
+      flex-direction: column;
+      width: 100%;
+      padding: 15px;
+      background: none;
+      height: auto;
+
+      #search_btn {
+        margin-top: 30px;
+        width: 100% !important;
+        margin-right: 0 !important;
+      }
+
+      .icon {
+        display: none;
+      }
+    }
+
+    .block_search {
+      height: 70px;
+      flex-grow: 2;
+
+      .input_search {
+        width: 100%;
+      }
+    }
+    .keyword {
+      flex-grow: 2;
+    }
+
+    input {
+      height: 70px;
+      flex-grow: 2;
+      background-color: $light-color;
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+        padding: 30px;
+        border-radius: 5px;
+        border: 1px solid #000 !important;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .location {
+      border: none;
+    }
+
+    .keyword {
+      border-left: none;
+      border-top: none;
+      border-bottom: none;
+    }
+
+    .icon {
+      margin-left: 20px;
+      margin-right: 5px;
+      width: 18px !important;
+      height: 18px !important;
+
+      &.landing {
+        color: $color4;
+      }
+
+      &.search-page {
+        color: $color1;
+      }
+    }
+  }
+
+  .error {
+    text-align: center;
+    color: $color5;
+    font-size: 14px;
+  }
+
+  .advanced-search {
+    margin-left: 14%;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.suggestions {
+  border-top: 1px solid black;
+  margin-top: -10px;
+  list-style: none;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+  width: 327px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: 14%;
+  height: 100px;
+  border-radius: 3px;
+  padding-left: 10px;
+  overflow-y: scroll;
+  padding-left: 50px;
+}
+// .suggestions::-webkit-scrollbar,
+// .suggestions::-webkit-scrollbar-thumb {
+//   width: 26px;
+//   border-radius: 13px;
+//   background-clip: padding-box;
+//   border: 10px solid transparent;
+// }

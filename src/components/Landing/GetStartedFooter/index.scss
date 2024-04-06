@@ -1,0 +1,23 @@
+@import "../../../theme/index.scss";
+
+.get_started_footer {
+  padding: 50px 0;
+  background: linear-gradient(120deg, $primary-color, $secondary-color);
+  h6 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 56px;
+  }
+  .get_started_button {
+    color: #000;
+    background: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    padding: 20px 30px;
+  }
+}

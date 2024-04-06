@@ -1,0 +1,66 @@
+/* Bootsrap Button Colors */
+
+$primary-color: darken(#428bca, 6.5%) !default;
+$success-color: #5cb85c !default;
+$info-color: #5bc0de !default;
+$warning-color: #f0ad4e !default;
+$danger-color: #d9534f !default;
+$primary-darker: #154260;
+/* Text Colors */
+
+$color1: #000;
+$color2: #fff;
+$color3: #808080;
+$color4: #1e8fc6;
+$color5: rgb(255, 0, 0);
+$color6: #2ab39e;
+$color7: #FFCC29;
+
+/* Backgrounds */
+
+$bg1: #2ab39e;
+$bg2: #2a84b3;
+$bg3: #fff;
+$bg4: #000;
+$bg5: #b32a83;
+$bg6: rgb(80, 139, 131);
+$bg7: #f4f4f4;
+$bg8: #07293d;
+//$bg8: #154260;
+
+//** Border Colors
+
+$border1: #916cc6;
+$border2: #2ab39e;
+$border3: #2a84b3;
+$border4: #fff;
+$border5: #000;
+
+/* make the customizations */
+$theme-colors: (
+  "primary": #2a84b3,
+  "primary-darker": #154260,
+  "secondary": #2ab39e,
+  "tertiary": #b32a83,
+  "light": #f4f4f4,
+  "dark": #000,
+  "yellow": #ffff00,
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+// // Extra small devices (portrait phones, less than 576px)
+// // No media query for `xs` since this is the default in Bootstrap
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }

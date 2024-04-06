@@ -1,0 +1,13 @@
+{
+  "addCompany": {
+    "message": "If you can't find the firm you're looking for, add it here! Help create an ecosystem for you and other businesses to connect and share experiences!",
+    "header": "Don't see what you're looking for?"
+  },
+  "noResults": {
+    "tips": "0 Results Found<br/><br/>To improve search results, try:<br/>Searching a different search item<br/>Searching a different location<br/>Checking your current spelling or try alternative spelling"
+  },
+  "writeReview": {
+    "header": "You're on your way to writing a review! Thank you for your contribution to the Hindsyght community",
+    "message": "Find the business you want to review in our database. "
+  }
+}

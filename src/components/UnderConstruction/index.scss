@@ -1,0 +1,25 @@
+@import "../../theme/index.scss";
+
+.hs-under-construction {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px 0;
+
+  h3 {
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  img {
+    width: 500px;
+    height: 350;
+
+    @media screen and (max-width: 375px) {
+      width: 350px;
+      height: auto;
+    }
+  }
+}

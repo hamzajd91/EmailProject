@@ -1,0 +1,139 @@
+.proficiency_statics.proficiency_statics_bg {
+  background-color: #f9fafd;
+}
+
+.proficiency_statics .proficiency_statics_top {
+  background-color: #07293d;
+}
+
+.proficiency_statics h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.proficiency_statics h2 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.proficiency_statics h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.proficiency_statics h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.proficiency_statics h5.proficiency_step {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  color: #2a84b3;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.proficiency_statics p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.proficiency_statics ul li {
+  font-size: 14px;
+  line-height: 25px;
+  list-style-position: inside;
+}
+
+.proficiency_statics .readmore_btn {
+  background-color: transparent;
+  font-weight: 600;
+  color: #2a84b3;
+}
+
+.proficiency_statics .search_list ul li {
+  list-style-position: inside;
+}
+
+.proficiency_statics .search_list ul li ul {
+  margin-left: 15px;
+}
+
+.hs-search-and-profile {
+  position: relative;
+}
+
+.hs-search-and-profile .company-profile {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  z-index: 1;
+}
+
+.search_page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.search_page .writeReview h3 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 50px auto 70px;
+  max-width: 800px;
+  color: #000;
+}
+
+.search_page .map-wrapper {
+  height: 355px;
+}
+
+.search_page .bg_search {
+  width: inherit;
+  border-radius: 10px;
+  height: 255px;
+}
+
+.search_page .notOwner-error {
+  color: #2a84b3;
+  text-align: center;
+  font-size: 25px;
+}
+
+.search_box_bg {
+  background-color: #07293d;
+  padding: 40px 0;
+}
+
+.company_not_found {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.company_not_found h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.company_not_found p {
+  color: #474747;
+  font-size: 14px;
+}
+
+.company_not_found a {
+  background-color: #2a84b3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 auto;
+  display: inline-block;
+}
+/*# sourceMappingURL=index.css.map */

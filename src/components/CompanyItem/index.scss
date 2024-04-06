@@ -1,0 +1,247 @@
+@import "../../theme/variable.scss";
+
+.company_grid {
+  margin: 10px 0px;
+}
+.company_card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  height: 100%;
+  border-radius: 5px;
+
+  .write_review_link {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: theme-color("primary");
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .request_info_link {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    color: theme-color("primary");
+    border: 1px solid theme-color("primary");
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .continue_reading {
+    font-size: 14px;
+    margin-top: 10px;
+    color: theme-color("primary");
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .company_image {
+    padding: 0 15px;
+    flex: 0 0 150px;
+    max-width: 150px;
+    @media screen and (max-width: 767px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+    div {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      height: 135px;
+      width: 130px;
+      img {
+        height: 130px;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  .company_info {
+    padding: 0 15px;
+    flex: 0 0 calc(100% - 150px);
+    max-width: calc(100% - 150px);
+    @media screen and (max-width: 767px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .total_review {
+      font-size: 14px;
+      margin-left: 5px;
+      margin-top: 3px;
+      color: theme-color("primary-darker");
+    }
+    .company_name {
+      margin: 10px 0;
+      a {
+        color: #000;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+    .company_address {
+      margin-top: 10px;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  .company_tagline {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #707070;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .review_button {
+    text-align: center;
+    width: 100%;
+    a {
+      margin: 5px;
+      background-color: $color4;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 14px;
+      display: inline-block;
+    }
+    button {
+      margin: 5px;
+      background-color: $color4;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 14px;
+      display: inline-block;
+    }
+  }
+}
+
+.companyDetails {
+  border-top: 1px solid $color2 !important;
+  border-left: 1px solid $color2 !important;
+  border-right: 1px solid $color2 !important;
+  width: 100%;
+  @media screen and (max-width: 500px) {
+    margin: 0 8px;
+  }
+
+  .companyBody {
+    display: inherit;
+
+    .image_div {
+      position: relative;
+
+      .company_image {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .plus_icon {
+        color: $color2;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .companyItem {
+      margin-left: 20px;
+      font-size: small;
+
+      .rating_badge {
+        background: $bg1 0% 0% no-repeat padding-box;
+        border: 1px solid $border4;
+        opacity: 1;
+        color: $color2;
+        margin-left: 20px;
+
+        .star_icon {
+          margin-right: 5px;
+          color: $color2;
+        }
+      }
+
+      .company_tagline {
+        width: 310px;
+
+        @media screen and (max-width: 500px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .company_footer {
+    border-top: none;
+    background-color: $border4;
+
+    .location_icon {
+      margin-right: 5px;
+    }
+  }
+}
+
+.popover_paper {
+  width: 320px;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+.c-box--arrow-top {
+  position: relative;
+  z-index: 10;
+}
+
+.c-box--arrow-top::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  border: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: -10px;
+  left: 50%;
+  border-bottom: 10px solid #fff;
+  top: -10px;
+}
+
+.progress_bar {
+  width: 100%;
+  .label {
+    font-size: 12px;
+    color: theme-color("primary-darker");
+    font-weight: 600;
+    width: 50px;
+    float: left;
+  }
+  .pr {
+    width: calc(100% - 100px);
+    float: left;
+  }
+  .percentage {
+    padding-left: 5px;
+    font-size: 12px;
+    color: theme-color("primary-darker");
+    font-weight: 600;
+    width: 50px;
+    float: left;
+  }
+}
+.review_l {
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+}

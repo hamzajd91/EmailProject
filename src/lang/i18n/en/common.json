@@ -1,0 +1,56 @@
+{
+  "button": {
+    "submit": "Submit"
+  },
+  "signup": {
+    "exists": "An account already exists for this email address",
+    "passwordRequirements": "Passwords must have 8 characters, 1 capitalized letter, 1 number, and 1 symbol",
+    "success": "Email verification sent. If email not received check your spam folder and <a class=alert-link href=/verify/resend>Click here</a> to resend",
+    "requireFirstname": "First name required",
+    "requireLastname": "Last name required",
+    "requireConfirm": "Please confirm your password",
+    "passwordMismatch": "Password must match",
+    "agreement": "I agree to the <a target='_blank' href='/terms'>Terms of Use</a> and <a href='/privacyPolicy' target='_blank'>Privacy Policy</a>",
+    "agreementRequired": "Agreement required to create an account"
+  },
+  "signin": {
+    "linkedin": "This is a linkedin account. Please signin using linkedin.",
+    "locked": "This account is currently locked from too many failed login attempts",
+    "incorrect": "Incorrect email or password",
+    "notValidated": "Email address not verified<br/> <a class=alert-link href=/verify/resend >Click here to Resend Verification Email</a>",
+    "requireEmail": "Email required",
+    "invalidEmail": "Invalid email",
+    "requirePassword": "Password required"
+  },
+  "contact": {
+    "error": "An error has occurred. Please try again later.",
+    "requireName": "Please enter your name",
+    "requireEmail": "Please enter your email",
+    "invalidEmail": "Please enter a valid email address",
+    "requireCompanyName": "Please enter your company's name",
+    "requireRole": "Please enter your roll at your company",
+    "success": "Your contact request has been sent"
+  },
+  "respond": {
+    "required": "Response text required."
+  },
+  "verification": {
+    "success": "Thank you for joining our community of B2B professionals, and welcome to the latest, most amazing way to find qualified services firms in your area! Our review system allows for businesses to be judged by their past work, and our open structure makes it easy for you to find just the right firm to meet your needs. Please take the time to write a review of any amazing firms you have used in the past to help others in your area!<br/>Click <a href='/'>here</a> to go to our home page."
+  },
+  "testimonials": {
+    "quote1": {
+      "text": "\"As a small boutique firm, it is difficult to win the project when going up against larger competitors. Even if we are the firm that usually goes in and fixes issues left by those larger firms. I wish there is a way to showcase our talents that can entice the companies to select us instead of conservatively select the bigger players.\"",
+      "author": "Mark Reichner, President and CEO, Pivot Consulting, Orange County, CA"
+    },
+    "quote2": {
+      "text": "\"Hindsyght provided us with several referral firms that are contributing significantly to our implementation and adoption of an ERP system.  The accounting referral is significantly more explicative than the previous system architect, and the supply chain management referral is helping us to better understand some of the more arcane aspects of SCM.\"",
+      "author": "John O’Brien, SAP Manager, Paulson Manufacturing, Temecula, CA"
+    }
+  },
+  "howItWorks": {
+    "search": "Simply type the service you’re looking for into the search bar. Our platform helps businesses find professional service firms, while allowing those firms to showcase their expertise. The shared experiences help others in our community find new partnerships that they can depend on.",
+    "connect": "Our search engine is optimized to help you find the local professional services firms with the right competencies that you seek. Professional services firms that are listed on our site provide us with their skills or proficiencies. Our search engine is optimized to use these proficiencies to return the results that matches the skill sets you expect.",
+    "review": "After projects are completed, users provide reviews that will not only help the firms they selected for their project, but also other peers in the industry searching for a partner to complete their IT project.",
+    "seller": "For IT service firms, you can manage your digital storefront to increase visibility and increase your clientele. Learn more <a href='/subscription'>here</a>"
+  }
+}

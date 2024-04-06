@@ -1,0 +1,185 @@
+@import "../../../theme/index.scss";
+.modal_remove_btn {
+  background-color: $primary-color;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.modal_cancel_btn {
+  background-color: #eee;
+  padding: 10px 20px;
+  color: #000;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.modal_footer {
+  text-align: center;
+  width: 100%;
+  button {
+    margin: 0 5px 0 5px;
+  }
+}
+
+.modal_header {
+  padding-bottom: 5px !important;
+  h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.bookmark_header {
+  background-color: $primary-darker;
+  padding: 45px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  img {
+    width: 50px;
+  }
+  .bookmark_label {
+    margin-left: 20px;
+    h3 {
+      color: #fff;
+      font-size: 20px;
+    }
+    span {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+}
+.all_bookmarks {
+  margin-top: 100px;
+}
+.bookmarks {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 75px;
+
+  .bookmark_image {
+    flex: 0 0 200px;
+    max-width: 200px;
+    padding: 0 15px;
+
+    @media (max-width: 767px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  .bookmark_info {
+    flex: 0 0 calc(100% - 200px);
+    padding: 0 15px;
+    max-width: calc(100% - 200px);
+    position: relative;
+    @media (max-width: 767px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+
+  .info {
+    h4 {
+      font-size: 22px;
+      font-weight: 600;
+    }
+    .origin {
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+
+  .notes {
+    display: flex;
+    p {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    button {
+      background-color: $primary-color;
+      padding: 0 15px;
+      cursor: pointer;
+      color: #fff;
+      border-radius: 5px;
+      margin-left: auto;
+      height: 50px;
+      line-height: 50px;
+    }
+  }
+  .star_color {
+    svg {
+      path {
+        fill: $color7;
+      }
+    }
+  }
+  .remove_bookmark {
+    position: absolute;
+    top: -50px;
+    background-color: $primary-darker;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    right: 10px;
+
+    @media (max-width: 767px) {
+      top: -170px;
+    }
+
+    svg {
+      fill: #fff;
+    }
+  }
+}
+.profile_section {
+  position: relative;
+  .anonymous_Review {
+    text-align: center;
+    h4 {
+      color: #fff;
+      font-size: 17px;
+    }
+    span {
+      color: #fff;
+      border: 1px solid #fff;
+      font-size: 14px;
+      padding: 13px 45px;
+      border-radius: 5px;
+      margin-top: 15px;
+      display: inline-block;
+    }
+  }
+}
+.cancel_btn {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: $primary-color;
+  color: #fff;
+  padding: 10px 30px;
+}
+.save_btn {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: $primary-darker;
+  color: #fff;
+  padding: 10px 30px;
+  &:disabled {
+    opacity: 0.8;
+  }
+}

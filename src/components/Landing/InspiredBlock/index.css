@@ -1,0 +1,33 @@
+.inspired_Blocks {
+  margin: 60px auto;
+}
+
+.inspired_Blocks h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #1e8fc6;
+  font-style: normal;
+}
+
+.inspired_Blocks .inspired_Block {
+  margin: 25px 0;
+}
+
+.inspired_Blocks .inspired_Block .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.inspired_Blocks .inspired_Block .text-normal {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: left;
+}
+/*# sourceMappingURL=index.css.map */

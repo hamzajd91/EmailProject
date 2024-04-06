@@ -1,0 +1,25 @@
+.box_Card {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  margin-top: 25px;
+}
+
+.box_Card:disabled {
+  opacity: 0.5;
+}
+
+.add_Company {
+  background-color: #2a84b3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.add_Company:disabled {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=index.css.map */

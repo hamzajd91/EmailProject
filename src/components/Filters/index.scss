@@ -1,0 +1,72 @@
+@import "../../theme//variable.scss";
+
+p#distance_label {
+  font-size: 11px;
+  margin: 0;
+}
+
+.clear_filter {
+  text-align: left;
+  button {
+    text-transform: capitalize;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+.result_filter {
+  padding: 25px 0;
+}
+
+.MuiExpansionPanelDetails-root {
+  padding: 1px 24px 1px !important;
+}
+
+.MuiFormControlLabel-label {
+  font-size: 12px !important;
+}
+
+.list-group-item {
+  padding: 0.5rem 1.25rem;
+}
+
+.card > .list-group:last-child .list-group-item:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.map {
+  .maps-title {
+    top: 1105px;
+    left: 1000px;
+    height: 60px;
+    background: #b32a83 0% 0% no-repeat padding-box;
+    border: 1px solid #b32a83;
+    opacity: 1;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    padding: 15px;
+    color: white;
+  }
+}
+.break_line {
+  height: 1px;
+  background-color: $color4;
+  margin: 15px 0;
+}
+.filter_label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.clr_btn {
+  background-color: transparent;
+  font-size: 12px;
+}
+.show_all_btn {
+  background-color: transparent;
+  font-size: 12px;
+}
+.p_min_height {
+  max-height: 250px;
+  overflow: auto;
+}

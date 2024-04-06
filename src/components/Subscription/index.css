@@ -1,0 +1,25 @@
+.subscription .row .col-md-6 {
+  min-height: 320px;
+}
+
+.subscription .subscription_img {
+  background-image: url("../../images/subscription/subscription_1.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 150px;
+}
+
+.subscription .subscription_info {
+  background-image: url("../../images/subscription/subscription_2.png");
+  background-color: #07293d;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 200px 15px;
+}
+
+.subscription .subscription_info p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=index.css.map */

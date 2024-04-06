@@ -1,0 +1,120 @@
+.profile_section {
+  background-color: #07293d;
+  padding: 45px;
+  border-radius: 5px;
+  margin-top: 120px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+.profile_section .profileImageWrapper img {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  width: 170px;
+  height: 170px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+  margin-top: -125px;
+}
+
+.profile_section .anonymous_Review {
+  text-align: center;
+}
+
+.profile_section .anonymous_Review h4 {
+  color: #fff;
+  font-size: 17px;
+}
+
+.profile_section .anonymous_Review span {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 14px;
+  padding: 13px 45px;
+  border-radius: 5px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.profile_section .upload_button {
+  vertical-align: top;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.profile_section .upload_button .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.profile_section .upload_button .upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.profile_section .upload_button .btn {
+  border: 0px;
+  color: #fff;
+  background-color: #2a84b3;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.profile_section .upload_button .btn svg {
+  fill: #fff;
+}
+
+.account_form {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 35px;
+  background-color: #fff;
+  margin: 35px 0;
+}
+
+.account_form .linked_in_sync {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account_form .linked_in_sync svg {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.account_form .linked_in_sync span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.account_form .linked_in_sync a {
+  background-color: #2a84b3;
+  padding: 10px 25px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
+.account_form .save_button {
+  background-color: #2a84b3;
+  padding: 10px 25px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=index.css.map */

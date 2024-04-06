@@ -1,0 +1,117 @@
+@import "../../../theme//variable.scss";
+
+.profile_desc_wrap {
+  padding: 30px 0 30px 0;
+  .profile_desc {
+    padding: 20px;
+    position: relative;
+    p.heading {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    p.text {
+      font-size: 16px;
+    }
+    .edit-details {
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      padding: 10px;
+      .btn {
+        background-color: $color4;
+        color: $color2;
+        a {
+          padding-top: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+.profile_desc_location_wrapper {
+  @media screen and (max-width: 500px) {
+    width: 100%;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .profile_location_wrapper {
+    .profile_location {
+      @media screen and (max-width: 500px) {
+        margin-top: 30px;
+      }
+
+      .edit-branch {
+        text-align: center;
+        margin-bottom: 0.2rem;
+        .btn {
+          background-color: $color4;
+          color: $color2;
+        }
+      }
+      .header_quarters,
+      .locations {
+        background-color: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        padding: 15px;
+        border-radius: 5px;
+        margin: 15px 0 0px 0;
+        p {
+          font-weight: 600;
+          border-bottom: 1px solid #ddd;
+          text-align: center;
+          padding-bottom: 10px;
+          font-size: 18px;
+        }
+
+        span {
+          font-size: 16px;
+        }
+      }
+
+      .branch-divider {
+        height: 2px;
+        color: #ddd;
+        margin: 15px 0;
+      }
+
+      .branch-divider:last-child {
+        display: none;
+      }
+      .locations {
+        text-align: center;
+        span {
+          color: #333;
+          line-height: 29px;
+          font-size: 14px;
+        }
+      }
+    }
+    .profile_location:hover {
+      color: rgba(0, 0, 0, 0.3);
+    }
+    .profile_location::-webkit-scrollbar,
+    .profile_location::-webkit-scrollbar-thumb {
+      width: 26px;
+      border-radius: 13px;
+      background-clip: padding-box;
+      border: 10px solid transparent;
+    }
+    .profile_location::-webkit-scrollbar-thumb {
+      box-shadow: inset 0 0 0 10px;
+    }
+  }
+}
+
+.fuckedupmap {
+  @media screen and (max-width: 500px) {
+    margin-bottom: 350px !important;
+  }
+}
